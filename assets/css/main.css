@@ -1,0 +1,505 @@
+.icon-action:hover {
+  margin-top: 15px;
+  transition: 1s;
+}
+
+.logo-action {
+  width: 10rem;
+  padding: 15px;
+}
+
+.logoone:hover {
+  background-color: rgb(135, 40, 145);
+}
+
+.logotwo:hover {
+  background-color: rgb(255, 205, 5);
+}
+
+.logothree:hover {
+  background-color: rgb(0, 180, 90);
+}
+
+.logo-four:hover {
+  background-color: rgb(35, 130, 200);
+}
+
+.logo-action:hover {
+  transition: 0.7s;
+  cursor: pointer;
+  scale: 1.2;
+  color: #fff;
+  width: 10rem;
+}
+
+.imgCode {
+  width: 215px;
+  height: 185px;
+}
+
+#feedback {
+  background-color: rgb(210, 50, 1);
+  padding: 5px;
+  color: #fff;
+  position: absolute;
+  right: -31px;
+  position: fixed;
+  rotate: -90deg;
+  top: 50%;
+  border-radius: 5px;
+  z-index: 9999;
+}
+
+#result {
+  background-image: url("https://2022.code.edu.az/wp-content/uploads/2021/09/code-academy-bg.jpeg");
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 320px;
+}
+
+.img-result {
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  object-fit: cover;
+  background-attachment: fixed;
+}
+
+.numbers p:nth-child(1) {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.numbers p:nth-child(2) {
+  font-size: 1.5rem;
+}
+
+#sec1 .container-paragraph .row {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+#sec1 .container-paragraph .row .col h2 {
+  margin: 0;
+  line-height: 0.2;
+  color: #4a4a4a;
+  font-size: 50px;
+}
+#sec1 .container-paragraph .row .col-5 p {
+  padding-top: 30px;
+  margin-bottom: 15px;
+  color: #4a4a4a;
+  line-height: 1.5;
+}
+#sec1 .container-elements .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sec1 .container-elements .row .col {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 189.98px;
+  height: 127.5px;
+}
+#sec1 .container-elements .row .col a img {
+  width: 120px;
+  height: auto;
+}
+
+#sec2 {
+  width: 100%;
+  padding: 10px;
+}
+#sec2 .container-paragraph .row {
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+#sec2 .container-paragraph .row .col h2 {
+  margin: 0;
+  line-height: 0.2;
+  color: #4a4a4a;
+  font-size: 50px;
+}
+#sec2 .container-paragraph .row .col img {
+  width: 130px;
+  height: 5px;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col {
+  position: relative;
+  width: 168.41px;
+  height: 170px;
+  margin: 15px;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img {
+  position: absolute;
+  width: 150px;
+  height: auto;
+  transform-style: preserve-3d;
+  transition: all 1s ease;
+  cursor: auto;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img img {
+  width: 150px;
+  height: 150px;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img .img-effect-of {
+  position: absolute;
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img .img-effect-on {
+  position: absolute;
+  backface-visibility: hidden;
+  width: 100%;
+  height: 100%;
+  transform: rotateX(180deg);
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img .img-effect-on .img-effect-on-content {
+  position: relative;
+  cursor: pointer;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img .img-effect-on .img-effect-on-content .img-effect-on-content-link .overlay {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img .img-effect-on .img-effect-on-content .img-effect-on-content-link a {
+  position: absolute;
+  text-decoration: none;
+  color: white;
+  top: 6px;
+  left: 15px;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img .img-effect-on .img-effect-on-content .img-effect-on-content-link a p {
+  font-size: 13px;
+}
+#sec2 .sec2-container .student-buttons .row-cols-6 .col .col-img:hover {
+  transform: rotateX(180deg);
+  transition: 1s;
+}
+
+* {
+  list-style-type: none !important;
+  text-decoration: none !important;
+}
+
+.contact-wrapper {
+  background-color: #F4F5F8;
+}
+.contact-wrapper .contact {
+  display: flex;
+  align-items: center;
+  padding: 5% 0;
+}
+.contact-wrapper .contact .contact-left {
+  width: 35%;
+  font-size: 50px;
+}
+.contact-wrapper .contact .contact-left h2 {
+  font-weight: 100;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contact-wrapper .contact .contact-left .sub-title {
+  font-weight: 600;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 34px;
+}
+.contact-wrapper .contact .contact-left p {
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.contact-wrapper .contact .contact-right {
+  width: 30%;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+.contact-wrapper .contact .contact-right form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 14px;
+}
+.contact-wrapper .contact .contact-right form input[type=text] {
+  width: 47%;
+  border: none;
+}
+.contact-wrapper .contact .contact-right form #surname {
+  margin-right: 10px;
+}
+.contact-wrapper .contact .contact-right form select[name=number] {
+  width: 20%;
+  border: none;
+  font-size: 18px;
+  margin-right: 10px;
+}
+.contact-wrapper .contact .contact-right form input[name=number] {
+  width: 75%;
+  font-size: 18px;
+}
+.contact-wrapper .contact .contact-right form select[name=courses] {
+  padding: 14px 12px;
+  border: none;
+}
+.contact-wrapper .contact .contact-right form input[type=text]:focus,
+.contact-wrapper .contact .contact-right form input[name=number]:focus,
+.contact-wrapper .contact .contact-right form select[name=courses]:focus,
+.contact-wrapper .contact .contact-right form select[name=number]:focus {
+  color: #373a3c;
+  border: 1px solid #818a91;
+  outline: 0;
+  font-size: 18px;
+}
+.contact-wrapper .contact .contact-right form button[type=submit] {
+  background-color: #FCBA00;
+  color: #FFF;
+  border: none;
+  padding: 14px 12px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.page-summary {
+  display: flex;
+  padding: 5% 0;
+}
+.page-summary .academy,
+.page-summary .Teaching-areas,
+.page-summary .corporative {
+  width: 30%;
+}
+.page-summary h4 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.page-summary ul {
+  padding: 0;
+}
+.page-summary ul li {
+  margin-bottom: 10px;
+}
+.page-summary ul li a {
+  font-size: 14px;
+  color: #8f8f8f;
+}
+
+footer .footer-top-bg {
+  background-color: #F4F5F8;
+}
+footer .footer-top-bg .footer-top p {
+  font-size: 15px;
+  padding: 30px 0;
+  margin: 0;
+  color: #4a4a4a;
+  text-align: center;
+}
+footer .footer-top-bg .footer-top p a {
+  color: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+footer .footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+footer .footer-bottom .all-rights,
+footer .footer-bottom .footer-logo,
+footer .footer-bottom .social-link {
+  width: 30%;
+}
+footer .footer-bottom .footer-logo img {
+  position: relative;
+  left: 100px;
+}
+footer .footer-bottom .all-rights p {
+  margin: 0;
+}
+footer .footer-bottom .social-link a {
+  margin: 0 12px;
+}
+footer .footer-bottom .social-link a i {
+  font-size: 16px;
+  color: #323232;
+  transition: all 0.2s;
+}
+footer .footer-bottom .social-link a:hover i {
+  transform: translateY(10px);
+}
+
+@media (min-width: 0px) and (max-width: 575px) {
+  .container {
+    padding: 0 !important;
+  }
+  .contact-wrapper {
+    width: 100%;
+  }
+  .contact-wrapper .contact {
+    flex-direction: column;
+    padding: 20px 10px;
+  }
+  .contact-wrapper .contact .contact-left,
+  .contact-wrapper .contact .contact-right {
+    width: 100%;
+  }
+  .contact-wrapper .contact .contact-left {
+    font-size: 16px;
+  }
+  .contact-wrapper .contact .contact-right {
+    margin: 0;
+  }
+  .contact-wrapper .contact .contact-right form input[type=text] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .contact-wrapper .contact .contact-right form select[name=number] {
+    width: 25%;
+  }
+  .contact-wrapper .contact .contact-right form input[name=number] {
+    width: 69%;
+  }
+  .page-summary {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  .page-summary .academy,
+  .page-summary .Teaching-areas,
+  .page-summary .corporative {
+    width: 100%;
+    margin-top: 10px;
+  }
+  footer .footer-top p {
+    font-size: 14px !important;
+  }
+  footer .footer-bottom {
+    flex-direction: column;
+  }
+  footer .footer-bottom .all-rights,
+  footer .footer-bottom .footer-logo,
+  footer .footer-bottom .social-link {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  footer .footer-bottom .all-rights p {
+    font-size: 13px;
+    text-align: center;
+  }
+  footer .footer-bottom .footer-logo {
+    margin: 20px 0;
+  }
+  footer .footer-bottom .footer-logo img {
+    left: 70px !important;
+  }
+  footer .footer-bottom .social-link .social-link-wrapper {
+    width: 80%;
+    margin: auto;
+  }
+}
+@media (max-width: 768px) {
+  .cards {
+    flex-wrap: wrap;
+  }
+  #tedris {
+    flex-direction: column;
+  }
+  .carousel-inner {
+    top: 19px;
+  }
+  .navbar-toggler {
+    position: absolute;
+    top: -41px !important;
+    font-size: 1rem !important;
+    right: -330px !important;
+    border: none;
+  }
+  #carouselExampleRide {
+    width: 100% !important;
+  }
+  .container-header .row {
+    display: flex;
+    flex-direction: column;
+  }
+  .icons {
+    display: none !important;
+  }
+  .icons-head {
+    width: 100% !important;
+  }
+  #tedris-1 {
+    width: 100% !important;
+  }
+  .txt-resp {
+    width: 100% !important;
+  }
+  .resultContn {
+    height: 400px !important;
+  }
+  #result {
+    height: 400px !important;
+  }
+  #btnMuraicet {
+    display: none !important;
+  }
+  #icons-rp {
+    display: none !important;
+  }
+}
+@media (max-width: 500px) {
+  .cards .d-flex {
+    flex-direction: column;
+  }
+  #feedback {
+    display: none;
+  }
+  #txt-header {
+    width: 70%;
+  }
+  .navbar-toggler {
+    right: -150px !important;
+  }
+  .mrBtn {
+    display: none;
+  }
+  .icons-head {
+    flex-direction: column;
+  }
+  .text-header0-content {
+    margin: 0 !important;
+  }
+  .txt-cntnt {
+    width: 100% !important;
+  }
+  .resultContn {
+    height: 500px !important;
+  }
+  #result {
+    height: 500px !important;
+  }
+  .cardonesec .d-flex {
+    gap: 20px;
+  }
+  #lh-1 {
+    width: 100% !important;
+  }
+  #partnyor {
+    font-size: 2rem !important;
+    margin: 1rem 0;
+  }
+}
